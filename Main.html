@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Автосервис</title>
+    <style>
+        /* Стили для шапки */
+        .header {
+            background-color: #eaeaea;
+            padding: 10px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navigation ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navigation li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+        }
+
+        /* Стили для блоков */
+        .block {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        /* Стили для формы */
+        .form {
+            margin-top: 20px;
+        }
+
+        .form input[type="text"],
+        .form input[type="email"],
+        .form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .form button {
+            padding: 10px 20px;
+            background-color: #eaeaea;
+            border: none;
+        }
+
+        /* Стили для футера */
+        .footer {
+            margin-top: 20px;
+            background-color: #eaeaea;
+            padding: 10px;
+            text-align: center;
+        }
+
+    .image-container {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="image-container">
+        <img src="resources/logo.png" alt="Изображение">
+    </div>
+    <div class="navigation">
+        <ul>
+            <h1>Автосервис</h1>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#prices">Цены</a></li>
+            <li><a href="#news">Новости</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+</div>
+<div class="block" id="about">
+    <h2>О нас</h2>
+    <p>Краткая информация о компании.</p>
+    <a href="Podrobnee.html">Подробнее</a>
+</div>
+<div class="block" id="buy">
+    <h2>Услуги</h2>
+    <p>Если вы хотите приобрести услугу, перейдите по ссылке ниже</p>
+    <a href="Buy.html">Читать дальше</a>
+</div>
+<div class="block" id="news">
+    <h2>Новости и акции</h2>
+    <ul>
+        <li>Новость 1</li>
+        <li>Новость 2</li>
+        <li>Новость 3</li>
+    </ul>
+</div>
+<div class="form" id="order-form">
+    <h2>Написать в Тех поддержку</h2>
+    <form>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <textarea name="message" placeholder="Опишите проблему" required></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+</div>
+<div class="footer" id="contacts">
+    <p>Контактная информация</p>
+    <p>Ссылки на социальные сети</p>
+</div>
+</body>
+</html>
